@@ -3,7 +3,7 @@
 A modern, responsive, and interactive personal portfolio website built to showcase my skills, projects, education, and professional journey.
 
 ## 🚀 Live Demo
-*(You can add your live deployment link here once deployed)*
+[https://theakarshsingh.vercel.app/](https://theakarshsingh.vercel.app/)
 
 ## ✨ Features
 
