@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Code2 } from 'lucide-react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export const Hero = () => {
   return (
@@ -72,6 +72,15 @@ export const Hero = () => {
             >
               <FaGithub size={20} />
               GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/theakarshsingh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 rounded-lg glass-card hover:bg-white/10 transition-colors flex items-center gap-2 font-medium text-white"
+            >
+              <FaLinkedin size={20} />
+              LinkedIn
             </a>
           </motion.div>
         </div>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Mail } from 'lucide-react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export const Contact = () => {
   return (
@@ -34,6 +34,15 @@ export const Contact = () => {
             >
               <FaGithub size={20} />
               GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/theakarshsingh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl glass hover:bg-white/10 transition-colors flex items-center justify-center gap-2 text-white font-medium border-white/20"
+            >
+              <FaLinkedin size={20} />
+              LinkedIn
             </a>
           </div>
 
